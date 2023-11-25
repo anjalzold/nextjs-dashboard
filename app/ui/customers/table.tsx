@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { Lusitana } from 'next/font/google';
 
 import { CustomersTable, FormattedCustomersTable } from '@/app/lib/definitions';
+import { Lusitana } from 'next/font/google';
 
 const lusitana = Lusitana({ subsets: ['latin'], weight: '400' });
 import Search from '@/app/ui/search';

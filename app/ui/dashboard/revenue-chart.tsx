@@ -1,6 +1,8 @@
 import { generateYAxis } from '@/app/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+import { Lusitana } from 'next/font/google';
+
+const lusitana = Lusitana({ subsets: ['latin'], weight: '400' });
 import { Revenue } from '@/app/lib/definitions';
 
 // This component is representational only.

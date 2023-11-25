@@ -1,4 +1,6 @@
-import { lusitana } from '@/app/ui/fonts';
+import { Lusitana } from 'next/font/google';
+
+const lusitana = Lusitana({ subsets: ['latin'], weight: '400' });
 import {
   AtSymbolIcon,
   KeyIcon,
